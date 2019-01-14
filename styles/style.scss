@@ -2,12 +2,38 @@
 
 body {
   background-color: $black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .heading {
-  margin-top: 2rem;
   &__title {
     text-align: center;
     color: $white;
+  }
+
+  &__text {
+    text-align: center;
+    font-size: 2rem;
+    color: $primary;
+  }
+}
+
+.drumkit {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-evenly;
+  &__key {
+    height: 6rem;
+    width: 6rem;
+    color: $white;
+    border: 2px solid $primary;
+    border-radius: 2px;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

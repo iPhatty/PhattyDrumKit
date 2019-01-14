@@ -1,13 +1,36 @@
 body {
   background-color: #393e41;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.heading {
-  margin-top: 2rem;
-}
 .heading__title {
   text-align: center;
   color: #f6f7eb;
+}
+.heading__text {
+  text-align: center;
+  font-size: 2rem;
+  color: #e94f37;
+}
+
+.drumkit {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.drumkit__key {
+  height: 6rem;
+  width: 6rem;
+  color: #f6f7eb;
+  border: 2px solid #e94f37;
+  border-radius: 2px;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
