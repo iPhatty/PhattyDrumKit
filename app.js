@@ -8,7 +8,7 @@ function keyPress(event) {
 
   //style pressed button
   const key = document.querySelector(`div[data-key="${event.key}"]`);
-  addClass(key, 'play');
+  addClass(key, 'drumkit__key--play');
 }
 
 function buttonPress(event) {
@@ -25,12 +25,12 @@ function buttonPress(event) {
   const key = document.querySelector(
     `div[data-key="${event.target.dataset.key}"]`
   );
-  addClass(key, 'play');
+  addClass(key, 'drumkit__key--play');
 }
 
 function removeTransition(event) {
   if (event.propertyName !== 'transform') return;
-  removeClass(this, 'play');
+  removeClass(this, 'drumkit__key--play');
 }
 
 function addClass(element, className) {

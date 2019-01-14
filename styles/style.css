@@ -35,16 +35,15 @@ body {
   align-items: center;
   transition: all 0.2s;
 }
+.drumkit__key--play {
+  border-color: #f6f7eb;
+  box-shadow: 0px 0px 6px #f6f7eb, 0px 0px 6px #f6f7eb;
+  transform: scale(1.1);
+}
 @media (min-width: 400px) {
   .drumkit__key {
     margin: 0;
   }
-}
-
-.play {
-  border-color: #f6f7eb;
-  box-shadow: 0px 0px 6px #f6f7eb, 0px 0px 6px #f6f7eb;
-  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */
