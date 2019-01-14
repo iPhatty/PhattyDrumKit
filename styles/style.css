@@ -19,11 +19,13 @@ body {
 .drumkit {
   margin-top: 6rem;
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-evenly;
 }
 .drumkit__key {
   height: 6rem;
   width: 6rem;
+  margin: 2rem;
   color: #f6f7eb;
   border: 2px solid #e94f37;
   border-radius: 2px;
@@ -32,6 +34,11 @@ body {
   justify-content: center;
   align-items: center;
   transition: all 0.2s;
+}
+@media (min-width: 400px) {
+  .drumkit__key {
+    margin: 0;
+  }
 }
 
 .play {
