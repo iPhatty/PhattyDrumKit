@@ -1,4 +1,6 @@
 @import './_variables.scss';
+@import './normalize.css';
+@import './skeleton.css';
 
 body {
   background-color: $black;
