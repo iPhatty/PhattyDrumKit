@@ -1,0 +1,13 @@
+@import './_variables.scss';
+
+body {
+  background-color: $black;
+}
+
+.heading {
+  margin-top: 2rem;
+  &__title {
+    text-align: center;
+    color: $white;
+  }
+}
